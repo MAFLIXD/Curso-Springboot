@@ -17,3 +17,4 @@ public class EjemploController {
         return "detalles_info";
     }
 }
+git status
