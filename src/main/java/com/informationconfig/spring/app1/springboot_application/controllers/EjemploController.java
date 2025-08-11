@@ -11,7 +11,7 @@ public class EjemploController {
 
     public String info(Model model) { //Pasa los datos del controller a la vista
 
-        Empleados empleado1 = new Empleados("Mateo", "Perez", "Calle Falsa 123", "Desarrollador", 30, 123456789, 1);
+        Empleados empleado1 = new Empleados("Mateo", "Perez", null, "Desarrollador", 30, 123456789, 1);
 
         model.addAttribute("Empleado", empleado1);
         return "detalles_info";
