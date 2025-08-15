@@ -6,7 +6,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @RestController
 @RequestMapping("/api")
-
 public class EjemploRestController {
 
     @GetMapping(path = "/detalles_info2")
